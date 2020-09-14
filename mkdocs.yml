@@ -1,0 +1,34 @@
+site_name: KPN Open Source
+site_description: 'KPN open source website'
+site_url: 'https://kpn.github.io'
+
+theme:
+  name: kpn
+
+repo_name: 'kpn/kpn.github.io'
+repo_url: https://github.com/kpn/kpn.github.io
+
+copyright: 'Copyright &copy; KPN'
+nav:
+  - Introduction: 'README.md'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.emoji
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - pymdownx.highlight
+
+# Nothing to search atm, uncomment to enable off-line search
+# plugins:
+#   - search:
+#       prebuild_index: true
